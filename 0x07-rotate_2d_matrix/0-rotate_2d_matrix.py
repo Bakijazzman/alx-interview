@@ -17,4 +17,3 @@ def rotate_2d_matrix(matrix):
                    ][first] = matrix[last][last - (i - first)]
             matrix[last][last - (i - first)] = matrix[i][last]
             matrix[i][last] = top
-
